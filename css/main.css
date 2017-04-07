@@ -1,0 +1,152 @@
+/***********************************************
+GENERAL STYLE
+***********************************************/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/***********************************************
+HOME PAGE STYLE
+***********************************************/
+
+.home-wrapper {
+    background-image: url("../img/road.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-y: -2em;
+    height: 100%;
+    width: 100%;
+}
+
+.nav-wrapper {
+    width: 100%;
+}
+
+.nav {
+    width: 25%;
+    margin-left: 50%;
+    margin-top: 10%;
+}
+
+/***********************************************
+ABOUT STYLE
+***********************************************/
+
+.about-wrapper {
+    background-image: url("../img/door.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 0em;
+    background-position-y: ;
+    height: 100%;
+    width: 100%;
+}
+
+.about-header {
+    /*background-image: url("../img/logo2.png");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-y: 1em;
+    background-size: 30%;
+    height: 18em;
+}
+
+#about-nav {
+    margin-left: 7%;
+    margin-top: 0;
+}
+
+/***********************************************
+HEADER STYLE
+***********************************************/
+
+.home-header {
+    background-image: url("../img/logo2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-y: 0em;
+    background-size: 30%;
+    height: 18em;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 1.35em;
+    color: #e8900c;
+}
+
+a:hover {
+    font-style: italic;
+    font-weight: bold;
+}
+
+li {
+    list-style-type: none;
+}
+
+/***********************************************
+MEDIA QUERIES
+***********************************************/
+
+@media (min-width: 420px) {
+    .nav select, .nav button {
+        display: none;
+    }
+}
+
+/***********************************************
+SMALL SCREEN < 420px
+***********************************************/
+
+@media (max-width: 420px) {
+    
+    .header {
+        height: 12em;
+        width: 100%;
+        background-size: 60%;
+    }
+
+    .home-wrapper {
+        background-position-y: 0em;
+    }
+
+    .nav ul {
+        display: none;
+    }
+
+    .nav {
+        width: 50%;   
+        margin-top: 75%;
+    }
+
+    .nav select {
+        font-family: 'IM Fell Double Pica', serif;
+        font-weight: bold;
+        height: 25px;
+    }
+
+    .nav button {
+        height: 25px;
+    }
+
+}
+
+/**********************************************
+FONTS
+**********************************************/
+/*
+font-family: 'Crimson Text', serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Alegreya', serif;
+font-family: 'Cutive Mono', monospace; *
+font-family: 'Homemade Apple', cursive;
+font-family: 'Reenie Beanie', cursive;
+font-family: 'IM Fell Double Pica', serif;
+font-family: 'Cedarville Cursive', cursive;
+*/
