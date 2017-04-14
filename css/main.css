@@ -21,11 +21,11 @@ HOME PAGE STYLE
     width: 100%;
 }
 
-.nav-wrapper {
+.home-nav-wrapper {
     width: 100%;
 }
 
-.nav {
+.home-nav {
     width: 25%;
     margin-left: 50%;
     margin-top: 10%;
@@ -36,17 +36,216 @@ ABOUT STYLE
 ***********************************************/
 
 .about-wrapper {
-    background-image: url("../img/door.jpeg");
+    background-image: url("../img/road3.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: 0em;
-    background-position-y: ;
+    background-position: center;
+    background-position-y: -2em;
     height: 100%;
     width: 100%;
 }
 
 .about-header {
-    /*background-image: url("../img/logo2.png");*/
+    background-image: url("../img/logo1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-y: 2em;
+    background-size: 28%;
+    height: 18em;
+}
+
+.about-nav-wrapper {
+    width: 100%;
+}
+
+.about-horizontal-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.about {
+    width: 70%;
+    margin: 2em auto;
+    font-family: 'Permanent Marker', cursive;
+    /*font-weight: bold;*/
+    font-size: 1.2em;
+}
+
+.about-para-wrapper {
+    width: 100%;
+}
+
+.about a {
+    color: black;
+    list-style-type: none;
+    text-decoration: underline;
+}
+
+/***********************************************
+CONTACT STYLE
+***********************************************/
+.contact-header {
+    background-image: url("../img/logo1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-y: 2em;
+    background-size: 28%;
+    height: 18em;
+}
+
+.contact-wrapper {
+    background-image: url("../img/road6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-y: -2em;
+    height: 100%;
+    width: 100%;
+}
+
+.contact-wrap {
+    display: flex; 
+    justify-content: space-around;
+    padding: 0 5em 0 5em;
+}
+
+.contact-horizontal-nav {
+    display: flex; 
+    justify-content: space-around;
+}
+
+.contact-info {
+    width: 50%;
+    text-align: center;
+    margin-top: -.6em;
+}
+
+.contact-form {
+    width: 25%;
+    margin-left: 2em; 
+    padding: 1em;
+    margin-top: -1em;
+}
+
+#contact-form {
+    display: flex; 
+    flex-direction: column;
+}
+
+.contact-method-linkedin {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.contact-method-twitter {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.contact-method a {
+    margin-right: 6em;
+}
+
+.contact-method p {
+    margin-left: 4em;
+}
+
+#email-para {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.3em;
+}
+
+#contact-para {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5em;
+}
+
+input[type=text] {
+    height: 2em; 
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1em;
+    background-color: #faf7fc;
+}
+
+input[type=submit] {
+    width: 10em;
+    margin-top: 2em;
+    height: 2em;
+    color: #171000;
+    background-color: #39ace6;
+    border-radius: 10%;
+    border-style: none;
+    align-self: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1em;
+}
+
+label {
+    font-size: 1.5em;
+    font-family: 'Permanent Marker', cursive;
+}
+
+textarea {
+    background-color: #faf7fc;
+    height: 3em;
+}
+
+.linkedin {
+    margin: -1em auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#linkedin {
+    padding-top: .35em;
+    padding-left: .4em;
+    width: 1em;
+    height: 1em;
+}
+
+.twitter {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+#twitter {
+    padding-top: .45em;
+    width: .75em;
+    height: .75em;
+    padding-left: .45em;
+}
+
+.email {
+    margin: -1.5em auto;
+}
+
+.btn {
+    font-size: 1em;
+    text-decoration: underline;
+}
+
+/***********************************************
+HEADER STYLE
+***********************************************/
+
+.home-header {
+    background-image: url("../img/logo1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -55,26 +254,7 @@ ABOUT STYLE
     height: 18em;
 }
 
-#about-nav {
-    margin-left: 7%;
-    margin-top: 0;
-}
-
-/***********************************************
-HEADER STYLE
-***********************************************/
-
-.home-header {
-    background-image: url("../img/logo2.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-position-y: 0em;
-    background-size: 30%;
-    height: 18em;
-}
-
-a {
+li a {
     text-decoration: none;
     font-family: 'Homemade Apple', cursive;
     font-size: 1.35em;
@@ -95,19 +275,39 @@ MEDIA QUERIES
 ***********************************************/
 
 @media (min-width: 420px) {
-    .nav select, .nav button {
+    .lg-screen-nav select, .lg-screen-nav button {
         display: none;
     }
 }
 
 /***********************************************
-SMALL SCREEN < 420px
+SMALL SCREEN < 360px
 ***********************************************/
 
-@media (max-width: 420px) {
+@media screen and (max-width: 360px) {
+
+     .lg-screen-nav ul {
+        display: none;
+    }
+
+    .lg-screen-nav {
+        width: 50%;
+    }
+
+    .lg-screen-nav select {
+        font-family: 'IM Fell Double Pica', serif;
+        font-weight: bold;
+        height: 25px;
+    }
+
+    .lg-screen-nav button {
+        height: 25px;
+    }
+
+/********HOME PAGE STYLE===SMALL SCREEN********/
     
-    .header {
-        height: 12em;
+    .home-header {
+        height: 10em;
         width: 100%;
         background-size: 60%;
     }
@@ -116,24 +316,252 @@ SMALL SCREEN < 420px
         background-position-y: 0em;
     }
 
-    .nav ul {
-        display: none;
+/*******ABOUT PAGE STYLE===SMALL SCREEN*******/
+
+    .about-wrapper {
+        background-position-y: 0em;
     }
 
-    .nav {
-        width: 50%;   
-        margin-top: 75%;
+    .about-header {
+        background-size: 50%;
+        height: 6em;
     }
 
-    .nav select {
+    .about {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .about-para-1, .about-para-2 {
+        font-size: 0.6em;
+    }
+
+    .about-nav {
+        margin: 0 auto;
+    }
+
+    .contact-wrapper {
+        background-position-y: 0em;
+    }
+
+    .contact-header {
+        background-size: 40%;
+        height: 6.5em;
+        margin-top: -1em;
+    }
+
+
+    .contact-wrap {
+        flex-direction: column;
+        width: 95%;
+        margin-bottom: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .contact-nav {
+        text-align: center;
+    }
+
+    .contact-nav select {
+        height: 25px;
+    }
+
+    .contact-nav-wrapper {
+        margin-bottom: -2em;
+    }
+
+    #contact-nav {
+        margin: -1em auto;
+    }
+
+    .contact-info {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .contact-form {
+        width: 80%;
+        font-size: 0.6em;
+        margin: 0em auto;
+    }
+
+    .linkedin a {
+        margin-top: 0.20em;
+    }
+
+    .twitter a {
+        margin-top: 0.20em;
+    }
+
+    .contact-method-twitter, .contact-method-linkedin {
+        font-size: 1em;
+    }
+
+    #contact-para {
+        font-size: 0.6em;
+    }
+
+    #twitter-para, #linkedin-para, #email-para {
+        font-size: 0.6em;
+    }
+
+    .email {
+        margin: -0.5em auto;
+    }
+
+    #email-para {
+        margin: 0 auto;
+    }
+
+    label {
+        font-size: 1em;
+    }
+    
+    .contact-info {
+        margin-top: -2em;
+    }
+}
+
+/***********************************************
+SMALL SCREEN < 420px
+***********************************************/
+
+@media (max-width: 420px) {
+
+    .lg-screen-nav {
+        width: 50%;
+    }
+
+    .lg-screen-nav select {
         font-family: 'IM Fell Double Pica', serif;
         font-weight: bold;
         height: 25px;
     }
 
-    .nav button {
+    .lg-screen-nav button {
         height: 25px;
     }
+
+    .lg-screen-nav ul {
+        display: none;
+    }
+
+    .about-wrapper {
+        background-position-y: 0em;
+    }
+
+    .about-header {
+        background-size: 50%;
+        height: 12em;
+    }
+
+    .about {
+        width: 90%;
+        font-size: 0.9em;
+    }
+
+    .about-nav {
+        margin: 1em auto;
+        text-align: center;
+    }
+
+    .contact-wrapper {
+        background-position-y: 0em;
+    }
+
+    .contact-header {
+        background-size: 50%;
+        height: 10em;
+    }
+
+
+    .contact-wrap {
+        flex-direction: column;
+        width: 95%;
+        margin: 2em auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    .contact-nav {
+        margin: 2em auto;
+        text-align: center;
+    }
+
+    .contact-nav select {
+        height: 25px;
+    }
+
+    .contact-info {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .contact-form {
+        width: 80%;
+        font-size: 0.6em;
+        margin: 0em auto;
+    }
+
+    .linkedin a {
+        margin-top: 0.20em;
+    }
+
+    .twitter a {
+        margin-top: 0.20em;
+    }
+
+    .contact-method-twitter, .contact-method-linkedin {
+        font-size: 1em;
+    }
+
+    #contact-para {
+        font-size: 0.6em;
+    }
+
+    #twitter-para, #linkedin-para, #email-para {
+        font-size: 0.6em;
+    }
+
+    .email {
+        margin: -0.5em auto;
+    }
+
+    #email-para {
+        margin: 0 auto;
+    }
+
+
+
+}
+
+/**********************************************
+TABLET SCREEN < 768px
+**********************************************/
+
+@media (max-width: 768px) {
+
+    .home-header {
+        height: 20em;
+        width: 100%;
+        background-size: 60%;
+    }
+
+    .home-nav {
+        margin-top: 30%;
+    }
+
+    .about-header {
+        background-size: 60%;
+    }
+
+    .about-nav {
+        margin-top: 1em;
+    }
+
 
 }
 

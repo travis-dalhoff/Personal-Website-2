@@ -1,9 +1,9 @@
 /////////////////Mobile Menu//////////////////////
 
 var $select = $("<select></select>");
-$(".nav").append($select);
+$(".lg-screen-nav").append($select);
 
-$(".nav a").each(function() {
+$(".lg-screen-nav a").each(function() {
     var $anchor = $(this);
     var $option = $("<option></option>");
     $option.val($anchor.attr("href"));
@@ -12,7 +12,7 @@ $(".nav a").each(function() {
 });
 
 var $button = $("<button>Go</button>");
-$(".nav").append($button);
+$(".lg-screen-nav").append($button);
 
 $button.click(function() {
     window.location = $select.val();
